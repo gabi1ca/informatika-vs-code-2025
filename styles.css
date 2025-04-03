@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(208, 47, 74);
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1.1em; /* Increase the font size by 1 */
+}
+
+h1 {
+    font-family: 'Milker', sans-serif;
+    font-size: 4em;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px 30px; /* Increased padding for larger buttons */
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white; /* Paints the button white */
+    color: rgb(208, 47, 74); /* Changes text color to match the background */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1.2em; /* Makes the text inside the button larger */
+}
+
+.about-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px 30px; /* Increased padding for larger buttons */
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white; /* Paints the button white */
+    color: rgb(208, 47, 74); /* Changes text color to match the background */
+    text-align: center;
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1.2em; /* Makes the text inside the button larger */
+}
+
+
+.full-screen-image {
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    object-fit: cover; /* Ensures the image covers the screen without distortion */
+    position: absolute; /* Position the image */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Places the image behind other content */
+}
+main {
+    background-color: white; /* Sets the background color to white */
+    color:rgb(208, 47, 74); /* Makes the text color black */
+    padding: 20px; /* Adds padding inside the square */
+    border: 2px solid rgb(208, 47, 74); /* Optional: Adds a border around the square */
+    border-radius: 10px; /* Optional: Rounds the corners of the square */
+    width: 80%; /* Adjusts the width of the square */
+    margin: 20px auto; /* Centers the square horizontally on the page */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for better visibility */
+}
